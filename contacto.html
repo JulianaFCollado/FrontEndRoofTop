@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos | Rooftop Dev Lab</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css" media="screen">
+</head>
+<body>
+    <section id="contenedor">
+    <head id="encabezado">
+        <div id="logo"><img src="img/logo.png"></div>
+        <nav id="barra">
+            <ul class="botonera">
+                <li><a href="#" target="new">Academy</a></li>
+                <li><a href="#" target="new">Contacto</a></li>
+                <li><a href="#" target="new">Aplica</a></li>
+                <li><a href="#" target="new">Contrata</a></li>
+            </ul>
+            
+                
+            
+        </nav>
+    </head>
+    <section id="cuerpo">
+        <div id="contacto">
+            <h1>Contáctanos</h1>
+            <p>Completa el formulario y un representante de <br>
+               Rooftop te contactará en la brevedad.</p>
+                <div id="mapa">
+                    <p><b>Encuéntranos</b><br>
+                        3050 Biscayne Blvd Suite 302,<br>
+                        Miami, Florida 33137, US</p>
+                </div>
+                <div id="email">
+                    <p>
+                        <b>Envíanos un correo</b> <br>
+                        info@rooftop.dev
+                    </p>
+                </div>
+        </div>
+        <div id="form">
+            <form >	
+				<input name="nombre" type="text" placeholder="Nombre" maxlength="30" pattern="[a-zA-Z0-9]+" required autofocus/>
+                <select name="enviar a" placeholder="Enviar a">
+                    <option value="Preguntas Generales">Preguntas Generales</option>
+                    <option value="Ventas">Ventas</option>
+                    <option value="Atencion al cliente">Atención al cliente</option>
+                    <option value="Prensa">Prensa</option>
+                    <option value="PartnerShip">Partnership</option>
+                    <option value="Inversores">Inversores</option> 
+                    <option value="Comunidad">Comunidad</option>
+                    <option value="Otros">Otros</option>
+                </select>
+                <input name="email" type="email" placeholder="Correo electrónico" required />	
+				<textarea name="consulta" placeholder="Me gustaría saber acerca de..." rows="6" required></textarea>
+				<button id="enviar" name="enviar" type="submit" class="btn">Contactanos</button>
+</form>	
+
+        </div>
+    </section>
+
+
+</section>
+</body>
+</html>

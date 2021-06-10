@@ -1,0 +1,120 @@
+body{
+    background-image: url("img/fondo.jpg");
+	font-family: Roboto,sans-serif;
+}
+#contenedor{
+    width: 1200px;
+	height: 950px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo{
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+	
+
+
+
+}
+#barra{
+	
+	margin-left: 10px;
+}
+.botonera{
+	text-decoration-line: none;
+	margin-left: 800px;
+	margin-top: 50px;
+}
+.botonera li{
+	display: inline-block;
+	position: relative;
+	margin-top: 40px;
+
+}
+.botonera li a{
+	text-decoration: none;
+	float: right;
+	display: block;
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color:  rgba(0, 3, 0, 1);
+	font-size: medium;
+}
+
+#cuerpo{
+	margin-top: 50px;
+}
+#contacto{
+	float: left;
+	width: 350px;
+
+}
+#mapa{
+	background-color:white;
+	border-radius: 10%;
+	width: 350px;
+	height: 100px;
+	padding-left: 40px;
+	padding-top: 20px;
+	margin-left: 15px;
+}
+#email{
+	background-color:white;
+	border-radius: 10%;
+	width: 350px;
+	height: 80px;
+	padding-left: 40px;
+	padding-top: 20px;
+	margin-left: 15px;
+	margin-top: 30px;
+}
+form{
+	padding: 60px;
+	width: 350px;
+	margin: 0 auto;
+	margin-left: 800px;
+  }
+  
+  form input, form textarea{
+	margin-bottom: 15px;
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+	border: none; 
+	color: #525c66; 
+	font-size: 1em;
+	resize: horizontal; 
+	border: 1px rgb(209, 208, 208) solid;
+  }
+  form select{
+	margin-bottom: 15px;
+	font-family: "Roboto", sans-serif;
+	width: 100%;
+	padding: 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
+	border: none; 
+	color: #525c66; 
+	font-size: 1em;
+	resize: horizontal; 
+	border: 1px rgb(209, 208, 208) solid; 
+  }
+  form button {
+	  display: block;
+	  background-color: #2f2f30;
+	  padding: 10px 45px 10px 45px;
+	  border: 0;
+	  font-size: 1em; 
+	  color: 	white;
+	  width: 350px;
+	font-family: "Roboto", sans-serif;
+  }
+  form button:hover{
+	  background-color: black;
+  }
+  textarea { resize: none; }
